@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="favYamahaRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF1A2A"/>
+      <stop offset="100%" stop-color="#C4000F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Círculo rojo exterior -->
+  <circle cx="32" cy="32" r="30" fill="url(#favYamahaRed)" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Anillo interior blanco -->
+  <circle cx="32" cy="32" r="24" fill="none" stroke="#FFFFFF" stroke-width="2.2"/>
+  
+  <!-- Diapasones cruzados característicos Yamaha (12 en punto) -->
+  <path d="M 32,8 L 32,32 M 29,11 L 29,19 A 3,3 0 0,0 35,19 L 35,11" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <!-- Diapasón inferior derecho (4 en punto) -->
+  <g transform="rotate(120, 32, 32)">
+    <path d="M 32,8 L 32,32 M 29,11 L 29,19 A 3,3 0 0,0 35,19 L 35,11" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+  
+  <!-- Diapasón inferior izquierdo (8 en punto) -->
+  <g transform="rotate(240, 32, 32)">
+    <path d="M 32,8 L 32,32 M 29,11 L 29,19 A 3,3 0 0,0 35,19 L 35,11" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Centro -->
+  <circle cx="32" cy="32" r="4.5" fill="#FFFFFF"/>
+  <circle cx="32" cy="32" r="2" fill="#E60012"/>
+</svg>

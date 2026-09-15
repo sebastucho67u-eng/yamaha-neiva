@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0">
+
+  <!-- Página Principal - Sede Neiva -->
+  <url>
+    <loc>https://yamahaneiva.com.co/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://yamahaneiva.com.co/assets/images/logo-yamaha-neiva.svg</image:loc>
+      <image:title>Yamaha Neiva - Concesionario Oficial Huila</image:title>
+      <image:caption>Sede Principal Carrera 5 # 12-45 Neiva Huila</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Catálogo de Motocicletas -->
+  <url>
+    <loc>https://yamahaneiva.com.co/#catalogo</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Test Drive / Prueba de Manejo Neiva -->
+  <url>
+    <loc>https://yamahaneiva.com.co/#test-drive</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Simulador de Crédito Huila -->
+  <url>
+    <loc>https://yamahaneiva.com.co/#simulador</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sede Principal Carrera 5 Neiva -->
+  <url>
+    <loc>https://yamahaneiva.com.co/#sede</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Servicio Técnico y Taller Autorizado -->
+  <url>
+    <loc>https://yamahaneiva.com.co/#servicios</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog & Noticias Huila -->
+  <url>
+    <loc>https://yamahaneiva.com.co/#blog</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contacto y WhatsApp Neiva -->
+  <url>
+    <loc>https://yamahaneiva.com.co/#contacto</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

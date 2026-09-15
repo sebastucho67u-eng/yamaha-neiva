@@ -1,0 +1,34 @@
+# ==============================================================================
+# ROBOTS.TXT - YAMAHA NEIVA (CONCESIONARIO OFICIAL HUILA)
+# Optimizado para Googlebot, Bingbot y Motores de Búsqueda
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /assets/images/
+Allow: /assets/video/
+Allow: /css/
+Allow: /js/
+
+# Prioridad de indexación para Googlebot
+User-agent: Googlebot
+Allow: /
+Allow: /*.html
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.svg
+Allow: /*.webp
+
+# Prioridad para Googlebot Mobile (Búsquedas en celular en Neiva y Huila)
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Rastreador de Imágenes de Google
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+# Mapa del Sitio XML Oficial
+Sitemap: https://yamahaneiva.com.co/sitemap.xml
