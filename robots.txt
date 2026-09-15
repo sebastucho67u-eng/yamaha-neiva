@@ -31,4 +31,4 @@ User-agent: Googlebot-Image
 Allow: /assets/images/
 
 # Mapa del Sitio XML Oficial
-Sitemap: https://yamahaneiva.com.co/sitemap.xml
+Sitemap: https://yamahasupermotosneiva.com.co/sitemap.xml
