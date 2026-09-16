@@ -493,14 +493,14 @@
       <div class="header-actions">
         
         <!-- Botón para revivir el video de intro -->
-        <button id="btn-replay-video-menu" title="Ver video de presentación" style="background: var(--color-light-bg); border: 1px solid var(--color-border); border-radius: var(--radius-sm); padding: 9px 14px; font-weight: 700; font-size: 0.82rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; color: var(--color-primary);">
-          <i class="fas fa-play" style="color: var(--color-yamaha-red);"></i>
-          <span>Ver Video</span>
+        <button id="btn-replay-video-menu" class="btn-header-video" title="Ver video de presentación">
+          <i class="fas fa-play"></i>
+          <span class="btn-video-text">Ver Video</span>
         </button>
 
         <a href="https://api.whatsapp.com/send?phone=573123157616&text=Hola%20Yamaha%20Neiva,%20deseo%20asesor%C3%ADa%20personalizada." target="_blank" class="btn-header-quote">
           <i class="fab fa-whatsapp"></i>
-          <span>Asesor Neiva</span>
+          <span class="btn-quote-text">Asesor Neiva</span>
         </a>
 
         <!-- Botón Hamburguesa Móvil -->
@@ -914,104 +914,104 @@
       </div>
 
       <!-- Tarjeta Principal de la Sede -->
-      <div style="background: linear-gradient(145deg, #0a122a 0%, #0d1e44 100%); border-radius: 20px; overflow: hidden; box-shadow: 0 16px 40px rgba(10, 18, 42, 0.25); color: #ffffff; border: 1px solid rgba(255, 231, 19, 0.2); display: grid; grid-template-columns: 1fr 1fr; @media(max-width:900px){grid-template-columns:1fr;}">
+      <div class="sede-featured-card">
         
         <!-- Bloque Izquierdo: Información y Contactos -->
-        <div style="padding: 50px 40px; display: flex; flex-direction: column; justify-content: center;">
+        <div class="sede-featured-info">
           
-          <div style="display: inline-flex; align-items: center; gap: 8px; background: #e60012; color: #fff; font-size: 0.8rem; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; padding: 6px 16px; border-radius: 50px; margin-bottom: 20px; align-self: flex-start;">
+          <div class="sede-badge">
             <i class="fas fa-check-circle"></i> Sede Única Oficial Huila
           </div>
 
-          <h3 style="font-family: 'Anton', sans-serif; font-size: 2.5rem; text-transform: uppercase; line-height: 1.1; margin-bottom: 24px;">
-            SEDE PRINCIPAL <span style="color: #ffe713;">CARRERA 5</span>
+          <h3 class="sede-title">
+            SEDE PRINCIPAL <span>CARRERA 5</span>
           </h3>
 
-          <div style="display: grid; gap: 20px; margin-bottom: 30px;">
+          <div class="sede-details-grid">
             
-            <div style="display: flex; gap: 16px; align-items: flex-start;">
-              <div style="width: 44px; height: 44px; border-radius: 10px; background: rgba(255, 231, 19, 0.15); color: #ffe713; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0;">
+            <div class="sede-detail-row">
+              <div class="sede-icon-box">
                 <i class="fas fa-map-marker-alt"></i>
               </div>
-              <div>
-                <div style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; color: #94a3b8; font-weight: 700;">Dirección Exacta</div>
-                <div style="font-size: 1.05rem; font-weight: 700; color: #ffffff;">Carrera 5 # 12 - 45, Centro / Zona Comercial</div>
-                <div style="font-size: 0.88rem; color: #cbd5e1;">Neiva, Huila - Colombia</div>
+              <div class="sede-detail-text">
+                <div class="sede-label">Dirección Exacta</div>
+                <div class="sede-value-bold">Carrera 5 # 12 - 45, Centro / Zona Comercial</div>
+                <div class="sede-subvalue">Neiva, Huila - Colombia</div>
               </div>
             </div>
 
-            <div style="display: flex; gap: 16px; align-items: flex-start;">
-              <div style="width: 44px; height: 44px; border-radius: 10px; background: rgba(255, 231, 19, 0.15); color: #ffe713; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0;">
+            <div class="sede-detail-row">
+              <div class="sede-icon-box">
                 <i class="fas fa-clock"></i>
               </div>
-              <div>
-                <div style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; color: #94a3b8; font-weight: 700;">Horarios de Atención</div>
-                <div style="font-size: 0.95rem; font-weight: 600; color: #ffffff;">Lunes a Viernes: 7:30 am a 6:00 pm (Jornada Continua)</div>
-                <div style="font-size: 0.95rem; font-weight: 600; color: #ffffff;">Sábados: 8:00 am a 2:00 pm</div>
+              <div class="sede-detail-text">
+                <div class="sede-label">Horarios de Atención</div>
+                <div class="sede-value">Lunes a Viernes: 7:30 am a 6:00 pm (Jornada Continua)</div>
+                <div class="sede-value">Sábados: 8:00 am a 2:00 pm</div>
               </div>
             </div>
 
-            <div style="display: flex; gap: 16px; align-items: flex-start;">
-              <div style="width: 44px; height: 44px; border-radius: 10px; background: rgba(255, 231, 19, 0.15); color: #ffe713; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0;">
+            <div class="sede-detail-row">
+              <div class="sede-icon-box">
                 <i class="fas fa-phone-alt"></i>
               </div>
-              <div>
-                <div style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; color: #94a3b8; font-weight: 700;">Líneas Telefónicas Directas</div>
-                <div style="font-size: 0.95rem; font-weight: 700; color: #ffffff;">Línea Directa: <a href="tel:+573123157616" style="color: #ffe713;">+57 312 315 7616</a></div>
-                <div style="font-size: 0.95rem; font-weight: 700; color: #ffffff;">WhatsApp Asesor: <a href="https://api.whatsapp.com/send?phone=573123157616" target="_blank" style="color: #25d366;">+57 312 315 7616</a></div>
+              <div class="sede-detail-text">
+                <div class="sede-label">Líneas Telefónicas Directas</div>
+                <div class="sede-value-bold">Línea Directa: <a href="tel:+573123157616" class="sede-phone-link">+57 312 315 7616</a></div>
+                <div class="sede-value-bold">WhatsApp Asesor: <a href="https://api.whatsapp.com/send?phone=573123157616" target="_blank" class="sede-wa-link">+57 312 315 7616</a></div>
               </div>
             </div>
 
           </div>
 
           <!-- Botones de Acción para la Sede -->
-          <div style="display: flex; gap: 14px; flex-wrap: wrap;">
-            <a href="https://maps.google.com/?q=Cra+5+12-45+Neiva+Huila" target="_blank" style="background: #e60012; color: #ffffff; padding: 14px 28px; border-radius: 8px; font-weight: 800; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.5px; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; transition: all 0.3s ease;">
-              <i class="fas fa-location-arrow"></i> Abrir en Google Maps / Waze
+          <div class="sede-actions">
+            <a href="https://maps.google.com/?q=Cra+5+12-45+Neiva+Huila" target="_blank" class="btn-sede-maps">
+              <i class="fas fa-location-arrow"></i> <span>Abrir en Maps / Waze</span>
             </a>
-            <a href="https://api.whatsapp.com/send?phone=573123157616&text=Hola%20Yamaha%20Neiva,%20deseo%20visitar%20la%20Sede%20Principal%20en%20la%20Cra.%205." target="_blank" style="background: #25d366; color: #ffffff; padding: 14px 28px; border-radius: 8px; font-weight: 800; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.5px; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; transition: all 0.3s ease;">
-              <i class="fab fa-whatsapp"></i> Hablar con Asesor
+            <a href="https://api.whatsapp.com/send?phone=573123157616&text=Hola%20Yamaha%20Neiva,%20deseo%20visitar%20la%20Sede%20Principal%20en%20la%20Cra.%205." target="_blank" class="btn-sede-wa">
+              <i class="fab fa-whatsapp"></i> <span>Hablar con Asesor</span>
             </a>
           </div>
 
         </div>
 
         <!-- Bloque Derecho: Servicios y Garantía Oficial -->
-        <div style="background: rgba(0, 0, 0, 0.35); padding: 50px 40px; border-left: 1px solid rgba(255, 255, 255, 0.1); display: flex; flex-direction: column; justify-content: center;">
+        <div class="sede-featured-services">
           
-          <h4 style="font-family: 'Anton', sans-serif; font-size: 1.6rem; color: #ffe713; text-transform: uppercase; margin-bottom: 20px;">
+          <h4 class="sede-services-heading">
             SERVICIOS DISPONIBLES EN SEDE NEIVA
           </h4>
 
-          <div style="display: grid; gap: 14px; margin-bottom: 30px;">
-            <div style="display: flex; align-items: center; gap: 12px; background: rgba(255, 255, 255, 0.06); padding: 12px 18px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.08);">
-              <i class="fas fa-motorcycle" style="color: #ffe713; font-size: 1.2rem;"></i>
-              <span style="font-weight: 700; font-size: 0.95rem;">Venta de Motocicletas Nuevas (Gama Completa 2026)</span>
+          <div class="sede-services-list">
+            <div class="sede-service-item">
+              <i class="fas fa-motorcycle"></i>
+              <span>Venta de Motocicletas Nuevas (Gama Completa 2026)</span>
             </div>
 
-            <div style="display: flex; align-items: center; gap: 12px; background: rgba(255, 255, 255, 0.06); padding: 12px 18px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.08);">
-              <i class="fas fa-tools" style="color: #ffe713; font-size: 1.2rem;"></i>
-              <span style="font-weight: 700; font-size: 0.95rem;">Taller de Servicio Técnico Autorizado Yamaha</span>
+            <div class="sede-service-item">
+              <i class="fas fa-tools"></i>
+              <span>Taller de Servicio Técnico Autorizado Yamaha</span>
             </div>
 
-            <div style="display: flex; align-items: center; gap: 12px; background: rgba(255, 255, 255, 0.06); padding: 12px 18px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.08);">
-              <i class="fas fa-oil-can" style="color: #ffe713; font-size: 1.2rem;"></i>
-              <span style="font-weight: 700; font-size: 0.95rem;">Repuestos Genuinos Incolmotos & Lubricantes Yamalube</span>
+            <div class="sede-service-item">
+              <i class="fas fa-oil-can"></i>
+              <span>Repuestos Genuinos Incolmotos & Lubricantes Yamalube</span>
             </div>
 
-            <div style="display: flex; align-items: center; gap: 12px; background: rgba(255, 255, 255, 0.06); padding: 12px 18px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.08);">
-              <i class="fas fa-exchange-alt" style="color: #ffe713; font-size: 1.2rem;"></i>
-              <span style="font-weight: 700; font-size: 0.95rem;">Retoma de Motos Usadas como Parte de Pago</span>
+            <div class="sede-service-item">
+              <i class="fas fa-exchange-alt"></i>
+              <span>Retoma de Motos Usadas como Parte de Pago</span>
             </div>
 
-            <div style="display: flex; align-items: center; gap: 12px; background: rgba(255, 255, 255, 0.06); padding: 12px 18px; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.08);">
-              <i class="fas fa-file-invoice-dollar" style="color: #ffe713; font-size: 1.2rem;"></i>
-              <span style="font-weight: 700; font-size: 0.95rem;">Aprobación Inmediata de Créditos y Financiación</span>
+            <div class="sede-service-item">
+              <i class="fas fa-file-invoice-dollar"></i>
+              <span>Aprobación Inmediata de Créditos y Financiación</span>
             </div>
           </div>
 
-          <div style="display: flex; align-items: center; gap: 10px; font-size: 0.85rem; color: #94a3b8;">
-            <i class="fas fa-shield-alt" style="color: #ffe713; font-size: 1.1rem;"></i>
+          <div class="sede-warranty-badge">
+            <i class="fas fa-shield-alt"></i>
             <span>Garantía Oficial Incolmotos Yamaha de 1 año o 20.000 km</span>
           </div>
 
