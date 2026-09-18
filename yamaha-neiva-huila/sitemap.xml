@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0">
+
+  <!-- Página Principal - Sede Neiva -->
+  <url>
+    <loc>https://yamahasupermotosneiva.com.co/</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://yamahasupermotosneiva.com.co/assets/images/yamaha-logo-official.png</image:loc>
+      <image:title>Yamaha Neiva - Concesionario Oficial Huila</image:title>
+      <image:caption>Sede Principal Carrera 5 # 12-45 Neiva Huila</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Catálogo de Motocicletas -->
+  <url>
+    <loc>https://yamahasupermotosneiva.com.co/#catalogo</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Test Drive / Prueba de Manejo Neiva -->
+  <url>
+    <loc>https://yamahasupermotosneiva.com.co/#test-drive</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Simulador de Crédito Huila -->
+  <url>
+    <loc>https://yamahasupermotosneiva.com.co/#simulador</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sede Principal Carrera 5 Neiva -->
+  <url>
+    <loc>https://yamahasupermotosneiva.com.co/#sede</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Taller y Repuestos Yamalube -->
+  <url>
+    <loc>https://yamahasupermotosneiva.com.co/#servicios</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Noticias & Blog Huila -->
+  <url>
+    <loc>https://yamahasupermotosneiva.com.co/#blog</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Contacto y PQRS -->
+  <url>
+    <loc>https://yamahasupermotosneiva.com.co/#contacto</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
